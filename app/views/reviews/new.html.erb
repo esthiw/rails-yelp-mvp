@@ -1,3 +1,6 @@
-<h1>Add a new review</h1>
+<h1 class="text-center">Add a review </h1>
 
 <%= render 'form', review: @review %>
+<div class="back_link">
+  <p class="text-center"><%= link_to 'Back to all restaurants', restaurants_path, class: 'btn btn-link' %><p>
+</div>

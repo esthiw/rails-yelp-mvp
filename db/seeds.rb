@@ -29,7 +29,7 @@ restaurants_attributes = [
     category: "japanese"
   },
   {
-    name: "Shinkuku Suhsi",
+    name: "Shinjuku Sushi",
     address: "Hipsterviertel, Paris",
     category: "japanese"
   }

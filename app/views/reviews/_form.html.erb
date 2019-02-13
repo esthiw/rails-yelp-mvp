@@ -1,5 +1,11 @@
-<%= simple_form_for [@restaurant, @review] do |f| %>
-  <%= f.input :content %>
-  <%= f.input :rating %>
-  <%= f.submit "add a review", class: "btn btn-primary" %>
-<% end %>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-3">
+        <%= simple_form_for [@restaurant, @review] do |f| %>
+          <%= f.input :content, placeholder: 'Write your thoughts here!' %>
+          <%= f.input :rating, placeholder: 'Please enter a number between 1 - 5' %>
+          <%= f.submit "Submit your review", class: "btn btn-success" %>
+        <% end %>
+    </div>
+  </div>
+</div>
